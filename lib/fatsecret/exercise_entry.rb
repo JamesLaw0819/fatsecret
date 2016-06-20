@@ -1,4 +1,4 @@
-class FatSecret
+module FatSecret
   module ExerciseEntry
     
     def self.included(base)
