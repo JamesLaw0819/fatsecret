@@ -1,4 +1,4 @@
-class FatSecret
+module FatSecret
   module Weight
     
     def self.included(base)
