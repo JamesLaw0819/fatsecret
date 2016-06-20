@@ -1,4 +1,4 @@
-class FatSecret
+module FatSecret
   module RecipeType
     
     def self.included(base)
