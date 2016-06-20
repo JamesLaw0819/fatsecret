@@ -7,7 +7,7 @@ require 'securerandom'
 require 'string'
 include String
 
-class FatSecret
+module FatSecret
   
   require 'fatsecret/exercise'
   require 'fatsecret/exercise_entry'
