@@ -4,8 +4,6 @@ require 'openssl'
 require 'cgi'
 require 'base64'
 require 'securerandom'
-require 'string'
-include String
 
 module FatSecret
   
@@ -82,5 +80,15 @@ module FatSecret
       parts << "oauth_signature=#{signature}"
       URI.parse("#{SITE}?#{parts.join('&')}")
     end
+
+    class String
+  
+      def esc
+        CGI.escape(self).gsub("%7E", "~").gsub("+", "%20") 
+      end
+    end
+  
+end
+
     
 end

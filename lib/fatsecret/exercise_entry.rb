@@ -1,5 +1,4 @@
-module FatSecret
-  module ExerciseEntry
+module FatSecret::ExerciseEntry
     
     def self.included(base)
       base.extend(ClassMethods)

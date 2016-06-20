@@ -1,5 +1,4 @@
-module FatSecret
-  module RecipeType
+module FatSecret::RecipeType
     
     def self.included(base)
       base.extend(ClassMethods)

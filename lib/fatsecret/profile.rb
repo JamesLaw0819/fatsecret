@@ -1,5 +1,4 @@
-module FatSecret
-  module Profile
+module FatSecret::Profile
     
     def self.included(base)
       base.extend(ClassMethods)

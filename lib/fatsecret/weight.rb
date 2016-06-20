@@ -1,5 +1,4 @@
-module FatSecret
-  module Weight
+module FatSecret::Weight
     
     def self.included(base)
       base.extend(ClassMethods)
