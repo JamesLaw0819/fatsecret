@@ -5,6 +5,7 @@ require 'cgi'
 require 'base64'
 require 'securerandom'
 require 'string'
+include String
 
 class FatSecret
   
