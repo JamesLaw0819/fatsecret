@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    fatsecret-api (0.1.0)
+    fatsecret (0.1.2)
 
 GEM
   remote: http://rubygems.org/
@@ -37,8 +37,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  fatsecret-api!
+  fatsecret!
   rake
   rspec
   simplecov
   webmock
+
+BUNDLED WITH
+   1.12.5
