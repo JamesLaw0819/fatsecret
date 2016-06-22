@@ -24,12 +24,13 @@ module FatSecret::Food
       get(query)
     end
     
-    def search_food(expression, page_number=0, max_results=20)
+    def search_food(expression, page_number=0, max_results=20, region='US')
       query = {
         :method => 'foods.search',
         :search_expression => expression.esc,
         :page_number => page_number,
-        :max_results => max_results
+        :max_results => max_results,
+        :region => region
       }
       get(query)
     end
