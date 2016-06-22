@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
-  s.name        = 'fatsecret-api'
-  s.version     = '0.1.1'
+  s.name        = 'fatsecret'
+  s.version     = '0.1.2'
   s.date        = '2016-06-19'
   s.summary     = 'A Ruby Wrapper to the FatSecret API'
   s.description = 'Connects to FatSecret API and retrieves nutritional data'
