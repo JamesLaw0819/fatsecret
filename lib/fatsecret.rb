@@ -4,6 +4,7 @@ require 'openssl'
 require 'cgi'
 require 'base64'
 require 'securerandom'
+require 'string'
 
 module FatSecret
   
@@ -35,7 +36,7 @@ module FatSecret
     @@secret = secret
     return self
   end
-  
+
   
 
   private
