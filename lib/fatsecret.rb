@@ -4,10 +4,10 @@ require 'openssl'
 require 'cgi'
 require 'base64'
 require 'securerandom'
-require 'string'
+
 
 module FatSecret
-  
+  require 'core_ext/string'
   require 'fatsecret/exercise'
   require 'fatsecret/exercise_entry'
   require 'fatsecret/food'
@@ -15,6 +15,7 @@ module FatSecret
   require 'fatsecret/recipe'
   require 'fatsecret/recipe_type'
   require 'fatsecret/weight'
+
   
   include FatSecret::Exercise
   include FatSecret::ExerciseEntry

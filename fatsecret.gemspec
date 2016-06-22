@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = 'Connects to FatSecret API and retrieves nutritional data'
   s.authors     = ['Ibrahim Muhammad', 'Bobby Uhlenbrock', 'Jason Ho']
   s.email       = 'ibrahim.mohammad@gmail.com'
-  s.files       = ['lib/fatsecret.rb', 'lib/string.rb']
+  s.files       = ['lib/fatsecret.rb']
   s.homepage    = 'http://www.github.com/hcyjason/fatsecret'
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'rake'
