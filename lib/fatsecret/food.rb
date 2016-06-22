@@ -1,4 +1,3 @@
-
 module FatSecret::Food
     
   def self.included(base)

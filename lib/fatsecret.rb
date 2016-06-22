@@ -36,11 +36,7 @@ module FatSecret
     return self
   end
   
-  class String
-    def esc
-      CGI.escape(self).gsub("%7E", "~").gsub("+", "%20") 
-    end
-  end
+  
 
   private
     
