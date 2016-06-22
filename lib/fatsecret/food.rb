@@ -35,10 +35,11 @@ module FatSecret::Food
       get(query)
     end
     
-    def food(id)
+    def food(id, region='US')
       query = {
         :method => 'food.get',
-        :food_id => id
+        :food_id => id,
+        :region => region
       }
       get(query)
     end
